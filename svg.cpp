@@ -325,7 +325,7 @@ int main()
 
     svg.Add(
         Svg::Polyline{}
-        .SetStrokeColor(Svg::Rgb{255, 198, 63})  // soft green
+        .SetStrokeColor(Svg::Rgb{255, 198, 63}) 
         .SetStrokeWidth(16)
         .SetStrokeLineCap("round")
         .AddPoint({50, 50})
